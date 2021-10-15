@@ -28,68 +28,86 @@ print(x, y, z, a, b)
 
 # Task 0.3
 
-name = input("please enter your name")
-print("Hello" + " " + name + "!")
+name = "Tshepo"
+print("Hello" + " " + name + "!") 
  """
 
 # Task 0.4
 
-""" num = int(input("Enter a number: "))
-if (num % 2) == 0:
-    print("{0} is Even number".format(num))
-else:
-    print("{0} is Odd number".format(num))
- """
+def EvenorOdd() :
+    
+    n = 2
+
+    if n == 2:
+        print("even")
+    
+    else:
+        print("odd")
+
+EvenorOdd()
+
+
 # task 0.5
 
+h = 3
+b = 5
 
-""" h = input("pls enter hight")
-b = input("pls enter base")
+area = b*h/2
 
-area = float(0.5(h + b))
 print(area)
- """
+
+
 # task 0.6
 
+maximum = (1* 2* 3)
+
+print(maximum)
 
 # task 0.7
 
-""" "c = float(input("temp"))
+c = 5
 
 f = (c * 1.8) + 32
 
-print(f) """
+print(f)
 
-"""f = float(input("fahrenheit"))
+f = 10
 
 c = (f - 32) * 5/9
 
-print(c)"""
+print(c)
 
 
 """"task 0.8
 
-import datetime
-sec = int(input("insert second: "))
-res = datetime.timedelta(seconds=sec)
-print(res)
+seconds = 20160
+    
+Hour = seconds / 3600
+#print(Hour)  
+
+minutes = float(0.6) * 60
+#print(minutes)
+
+print(Hour)
+print(minutes)
+        
 
 # task 0.9
 """
-"""voul = input("insert word: ")
+voul = "marlon"
 print(voul)
 
 for let in voul:
     if let == 'a' or let == 'e' or let == 'i' or let == 'o' or let == 'u':
-        print(let) """
+        print(let) 
 
 
 # Task0.10
 
-#usr1 = input("input: ")
-#usr2 = input("input: ")
+usr1 = "marlon"
+usr2 = "mar"
 
-#s1 = set(usr1)
-#s2 = set(usr2)
-#lst = list(s1 & s2)
-#print("c letter: {}" .format(lst))
+s1 = set(usr1)
+s2 = set(usr2)
+lst = list(s1 & s2)
+print("c letter: {}" .format(lst))
