@@ -3,13 +3,13 @@
 def compare(vowel):
     for vowel in 'aeiou':
         if vowel in sentence:
-         print(vowel)
+         print(vowel, end = ' ')
 
 
 
-sentence = "umuzi"
+sentence = "Umuzi"
 
-compare(sentence)
+compare(sentence.lower())
 
 
 
