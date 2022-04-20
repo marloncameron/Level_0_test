@@ -1,11 +1,11 @@
 #task 06
 
 def maximumvalue(list1):
-    max = list1[0]
+    maximum = list1[0]
     for x in list1:
-        if x > max :
-             max = x
-    return max
+        if x > maximum :
+             maximum = x
+    return maximum
     
 
 
