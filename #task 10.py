@@ -1,11 +1,12 @@
 #task 10
 
-def comp():
-    a = 'house'
-    b = 'computers'
-    common_letters = set(a) & set(b)
-    print(list(common_letters))
+def compare_words(a ,b):
+    s1 = set(a)
+    s2 = set(b)
+    lst = s1 & s2
+    print('Common letters:',lst)
 
-comp()
+
+compare_words("house" , "computers")
 
 
