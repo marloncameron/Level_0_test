@@ -1,16 +1,15 @@
 #task 09
 
-def compare(vowel):
+def findingvowels(vowel):
     for vowel in 'aeiou':
-        if vowel in sentence.lower():
+        if vowel in sentence:
          print(vowel, end = ' ')
 
 
 
 sentence = "Umuzi"
 
-compare(sentence)
-
+findingvowels(sentence.lower())
 
 
 
