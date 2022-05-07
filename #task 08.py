@@ -16,7 +16,7 @@ def conversion(minutes):
         print(hour_value, "hours", min_value, "minutes")
 
     else:
-        print(hour_value, "hour", min_value, "minutes")
+        print(hour_value, "hour", "," , min_value, "minutes")
 
-min = 71
+
 conversion(min)
