@@ -1,6 +1,6 @@
 #task 03
 
-def hello  (name):
+def hello(name):
      print ("hallo" , name + "!")
 
 hello ("Marlon")
