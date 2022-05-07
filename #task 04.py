@@ -1,12 +1,8 @@
 #task 04
-
-def even_or_odd(number):
-    if number%2 == 0:
-        numbertype ="even"
+def even_or_odd(n):
+    if (n % 2 == 0):
+        print("Even")
     else:
-        numbertype ="odd"
-    return numbertype
+        print("Odd")
 
-number = int (3)
-numbertype = even_or_odd(number)
-print( numbertype )
+even_or_odd(9)
