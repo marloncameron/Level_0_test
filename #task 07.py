@@ -1,4 +1,3 @@
-#task 07
 
 # the is to convert Fahrenheit to celcuis 
 def Fahrenheit_to_celcuis(a):
