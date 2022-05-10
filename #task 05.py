@@ -1,7 +1,3 @@
-#task 05
-
-#the funtion below is herons formula 
-
 def area_of_a_triangle(side_1, side_2, side_3):
     perimeter = side_1 + side_2 + side_3
     semi_perimeter = perimeter / 2
