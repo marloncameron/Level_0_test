@@ -1,4 +1,3 @@
-#task 10
 
 def characters(x,y):
     str1=x.lower()
