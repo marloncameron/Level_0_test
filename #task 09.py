@@ -1,5 +1,3 @@
-#task 09
-
 vowels = ['a', 'e', 'i', 'o', 'u']
 word ="Umuzi"
 input_list = list(word.lower())
