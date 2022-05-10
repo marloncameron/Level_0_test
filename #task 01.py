@@ -1,4 +1,3 @@
-#task 01
 
 x = 0
 print(x)
