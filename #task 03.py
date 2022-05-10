@@ -1,6 +1,5 @@
-#task 03
 
 def hello(name):
-     print ("hallo" , name + "!")
+     print ("hello" , name + "!")
 
 hello("Marlon")
