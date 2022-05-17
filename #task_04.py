@@ -1,8 +1,7 @@
-#task 04
-def even_or_odd(n):
-    if (n % 2 == 0):
-        print("Even")
+def even_or_odd(num):
+    if (num % 2 == 0):
+        print("even")
     else:
-        print("Odd")
+        print("odd")
 
 even_or_odd(9)
