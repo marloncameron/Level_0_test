@@ -1,10 +1,9 @@
 
-# the is to convert Fahrenheit to celcuis 
 def Fahrenheit_to_celcuis(a):
     cel = (a-32)*5/9
     return cel
 
-# this is to convert celcuis to Fahrenheit
+
 def celcuis_to_Fahrenheit(a):
     fer = (a*1.8) + 32
     return fer
