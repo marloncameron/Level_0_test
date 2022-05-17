@@ -1,5 +1,3 @@
-#task 06
-
 def maximum_value(list1):
     maximum = list1[0]
     for x in list1:
