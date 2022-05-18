@@ -8,5 +8,5 @@ def characters(x,y):
     print("Common characters: ",i)
 
 
-characters("housE", "computers");
+characters("housE", "computers")
 
