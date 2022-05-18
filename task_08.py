@@ -1,23 +1,17 @@
-def conversion(minutes):
-    min_value = minutes % 60
-    hour_value = minutes // 60
+def conversion(number):
+    minutes = number % 60
+    hour = number // 60
 
-
-
-    if hour_value == 0 and min_value == 0:
-        print(hour_value, "hours", min_value, "minutes")
-
-    elif hour_value == 0 and min_value == 1:
-        print(f'{hour_value} hours , {min_value} minute')
-
-    elif hour_value == 1 and min_value == 1:
-        print(f'{hour_value}  hour, {min_value} minute')
-
-    elif hour_value > 1 and min_value > 1:
-        print(f'{hour_value} hours, {min_value} minutes')
-
+    if hour == 1:
+        desc_hour = " hour"
     else:
-        print(f'{hour_value} hour , {min_value} minutes')
+        desc_hour = " hours"
+    if minutes == 1:
+        desc_minutes = " minute"
+    else:
+        desc_minutes = " minutes"
+
+    print(hour, desc_hour, ",", minutes, desc_minutes)
 
 
-conversion(61)
+conversion(781)
